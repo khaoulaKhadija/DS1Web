@@ -27,16 +27,12 @@ function actif(){
 var b =document.querySelector(".panel-joueur-1 actif");
 	if(a.classList.contains("panel-joueur-0")){
 		a.classList.remove("panel-joueur-0");
-		a.classList.toggle("panel-joueur-1 actif");
+		a.classList.add("panel-joueur-1 actif");
 	}
 }
 
 
 
-function cacher() {
 
-var a=document.getElementsByClassName("de");
-for (var i = 0  ; i<a.length; i++) {
-	a[i].style.display="none"
-}}
 
+document.querySelector(".de").style.display='none';
